@@ -4,15 +4,15 @@
  * main- Entry point
  *
  * Return: Always 0 (Success)
- * */
+ */
 
-int main() {
-
+int main(void)
+{
 	char str[100];
 
-	strcpy(str, "Programming is like building a multilingual puzzle");
+	str[] =  "\"Programming is like building a multilingual puzzle";
 
-	puts(str);
+	puts(str[]);
 
-	return 0;
+	return (0);
 }
