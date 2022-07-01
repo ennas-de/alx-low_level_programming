@@ -8,17 +8,11 @@
 
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float e;
-
-	printf("Size of a char: $c\n", a);
-	printf("Size of an int: $d\n", b);
-	printf("Size of a long int: $ld\n", c);
-	printf("Size of a long long int: $ld\n", d);
-	printf("Size of a float: $f\n", e);
+	printf("Size of a char: %d byte(s)\n", sizeof(char));
+	printf("Size of an int: %d byte(s)\n", sizeof(int));
+	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %d byte(s)\n", sizeof(float));
 
 	return (0);
 
