@@ -11,9 +11,8 @@
 
 int main(void)
 {
-	int len = strlen(HELLO);
 	
-	write(1, HELLO, len)
+	write(1, HELLO, 59);
 	
-		return (1);
+	return (1);
 }
