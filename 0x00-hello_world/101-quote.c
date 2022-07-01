@@ -11,8 +11,7 @@
 
 int main(void)
 {
-	
 	write(1, HELLO, 59);
-	
+
 	return (1);
 }
