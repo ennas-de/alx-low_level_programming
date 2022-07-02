@@ -20,15 +20,15 @@ int main(void)
 
 	if (l_let > 5)
 	{
-		printf("\nLast digit of %d is %d and is greater than 5\n", n, l_let);
+		printf("Last digit of %d is %d and is greater than 5\n", n, l_let);
 	}
 	else if (l_let == 0)
 	{
-		printf("\nLast digit of %d is %d and is 0\n", n, l_let);
+		printf("Last digit of %d is %d and is 0\n", n, l_let);
 	}
 	else if (l_let < 6 && l_let != 0)
 	{
-		printf("\nLast digit of %d is %d and is less than 6 and not 0\n", n, l_let);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l_let);
 	}
 
 	return (0);
