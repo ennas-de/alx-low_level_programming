@@ -20,20 +20,17 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/* your code goes there */
-	char sn[50];
-	sprintf(sn, "%d", n);
-	int len = atoi(strlen(sn));
-	int l_let = n[len - 1];
+	
 
-	if (l_let > 5)
+	if (n % 10 > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, l_let);
 	}
-	else if (l_let == 0)
+	else if (n % 10 == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, l_let);
 	}
-	else if (l_let < 6 && l_let != 0)
+	else if (n % 10 < 6 && n % 10 != 0)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l_let);
 	}
