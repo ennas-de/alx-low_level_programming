@@ -19,7 +19,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/* your code goes there */
-	char sn[];
+	char sn[50];
 	sprintf(sn, "%d", n);
 	int len = strlen(n);
 	int l_let = n[len - 1];
