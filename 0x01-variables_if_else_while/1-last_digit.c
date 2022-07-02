@@ -21,7 +21,7 @@ int main(void)
 	/* your code goes there */
 	char sn[50];
 	sprintf(sn, "%d", n);
-	int len = strlen(n);
+	int len = strlen(sn);
 	int l_let = n[len - 1];
 
 	if (l_let > 5)
