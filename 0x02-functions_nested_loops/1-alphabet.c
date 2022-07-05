@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Print small letter Alpabets
+ * print_alphabet - Print small letter Alpabets
  *
  * Return: Always 0 (Success)
  */
