@@ -7,10 +7,13 @@
  * Return: Always 0 (Success)
  */
 
+#ifndef main
+#define main
+
 int main(void)
 {
-	_putchar(char c);
-
+	_putchar(c);
 	return (0);
 }
 
+#endif
