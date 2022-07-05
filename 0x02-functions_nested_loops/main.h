@@ -1,19 +1,10 @@
-#include <stdio.h>
-#include "_putchar.c"
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
 
-#ifndef main
-#define main
+int _putchar(char c);
 
-int main(void)
-{
-	_putchar(c);
-	return (0);
-}
 
 #endif
+
+
