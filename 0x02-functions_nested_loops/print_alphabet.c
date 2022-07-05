@@ -1,8 +1,7 @@
 #include <unistd.h>
 
-int main(void)
-{
-	print_alphabet(void);
 
-	return (0);
-}
+int print_alphabet(void)
+{
+	return (0);	
+}	
