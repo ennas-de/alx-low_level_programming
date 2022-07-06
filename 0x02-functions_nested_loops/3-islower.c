@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * islower - Entry Point
+ * _islower - Entry Point
+ *
+ * c - function argument
  *
  * Return: Always 0 (Success)
  */
@@ -13,7 +15,7 @@ int _islower(int c)
 	for (ch = 97; ch <= 122; ch++)
 		if (c == ch)
 		{
-			return (1);
+			return (0);
 		}
-	return (0);
+	return (1);
 }
