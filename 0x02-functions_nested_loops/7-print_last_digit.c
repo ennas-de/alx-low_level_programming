@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_last_digit: Prints last digit of a number
- * @c: Int value to check
- * Return: Always 0 (Success)
+ * print_last_digit - prints the last digit of a number
+ * @n: the int to extract the last digit from
+ * Return: value of the last digit
  */
 
 int print_last_digit(int c)
@@ -21,7 +21,5 @@ int print_last_digit(int c)
 	_putchar(a + '0');
 
 	return (a);
-
-	
 
 }
