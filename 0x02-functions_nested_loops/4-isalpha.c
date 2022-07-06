@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _isalpha: checks fpr alphabetic character
+ * _isalpha: checks for alphabetic character
  *
- * @c: input
+ * @c: function input
  *
- * Return: Always 0 (Success)
+ * Return: 1 if c is a letter, 0 otherwise
  */
 
 int _isalpha(int c)
