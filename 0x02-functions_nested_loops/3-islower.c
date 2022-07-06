@@ -3,7 +3,7 @@
 /**
  * _islower - Entry Point
  *
- * c - function argument
+ * @c:  function argument
  *
  * Return: Always 0 (Success)
  */
