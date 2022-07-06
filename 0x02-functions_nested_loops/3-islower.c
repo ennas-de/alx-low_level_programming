@@ -12,7 +12,11 @@ int _islower(int c)
 
 	for (ch = 97; ch <= 122; ch++)
 		if (c == ch)
+		{
 			return (1);
+		}
 		else
+		{
 			return (0);
+		}
 }
