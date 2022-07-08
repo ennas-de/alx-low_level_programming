@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - FizzBuzz.
  *
@@ -26,7 +27,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%i", i);
+			printf("%d", i);
 		}
 
 		if (i != 100)
@@ -36,7 +37,7 @@ int main(void)
 
 		i++;
 	}
-	putchar('\n');
+	putchar("\n");
 	return (0);
 
 }
