@@ -5,7 +5,11 @@
  * @c: interger to be checked
  * Return: 1 if c is uppercase
  */
-int _isupper(char c)
+
+int _isupper(int c)
 {
-	return ((c >= 'A') && (c <= 'Z'));
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
